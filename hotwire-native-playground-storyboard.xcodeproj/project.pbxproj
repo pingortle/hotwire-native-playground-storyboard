@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5E63C4652CA4C11F00B247A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E63C4462CA4C11D00B247A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E63C44D2CA4C11D00B247A9;
+			remoteInfo = "hotwire-native-playground-storyboard";
+		};
+		5E63C46F2CA4C11F00B247A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E63C4462CA4C11D00B247A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E63C44D2CA4C11D00B247A9;
+			remoteInfo = "hotwire-native-playground-storyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E63C44E2CA4C11D00B247A9 /* hotwire-native-playground-storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hotwire-native-playground-storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E63C4642CA4C11F00B247A9 /* hotwire-native-playground-storyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hotwire-native-playground-storyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E63C46E2CA4C11F00B247A9 /* hotwire-native-playground-storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hotwire-native-playground-storyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5E63C4762CA4C11F00B247A9 /* Exceptions for "hotwire-native-playground-storyboard" folder in "hotwire-native-playground-storyboard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5E63C44D2CA4C11D00B247A9 /* hotwire-native-playground-storyboard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5E63C4502CA4C11D00B247A9 /* hotwire-native-playground-storyboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5E63C4762CA4C11F00B247A9 /* Exceptions for "hotwire-native-playground-storyboard" folder in "hotwire-native-playground-storyboard" target */,
+			);
+			path = "hotwire-native-playground-storyboard";
+			sourceTree = "<group>";
+		};
+		5E63C4672CA4C11F00B247A9 /* hotwire-native-playground-storyboardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "hotwire-native-playground-storyboardTests";
+			sourceTree = "<group>";
+		};
+		5E63C4712CA4C11F00B247A9 /* hotwire-native-playground-storyboardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "hotwire-native-playground-storyboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E63C44B2CA4C11D00B247A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E63C4612CA4C11F00B247A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E63C46B2CA4C11F00B247A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E63C4452CA4C11D00B247A9 = {
+			isa = PBXGroup;
+			children = (
+				5E63C4502CA4C11D00B247A9 /* hotwire-native-playground-storyboard */,
+				5E63C4672CA4C11F00B247A9 /* hotwire-native-playground-storyboardTests */,
+				5E63C4712CA4C11F00B247A9 /* hotwire-native-playground-storyboardUITests */,
+				5E63C44F2CA4C11D00B247A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E63C44F2CA4C11D00B247A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E63C44E2CA4C11D00B247A9 /* hotwire-native-playground-storyboard.app */,
+				5E63C4642CA4C11F00B247A9 /* hotwire-native-playground-storyboardTests.xctest */,
+				5E63C46E2CA4C11F00B247A9 /* hotwire-native-playground-storyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E63C44D2CA4C11D00B247A9 /* hotwire-native-playground-storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E63C4772CA4C11F00B247A9 /* Build configuration list for PBXNativeTarget "hotwire-native-playground-storyboard" */;
+			buildPhases = (
+				5E63C44A2CA4C11D00B247A9 /* Sources */,
+				5E63C44B2CA4C11D00B247A9 /* Frameworks */,
+				5E63C44C2CA4C11D00B247A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5E63C4502CA4C11D00B247A9 /* hotwire-native-playground-storyboard */,
+			);
+			name = "hotwire-native-playground-storyboard";
+			packageProductDependencies = (
+			);
+			productName = "hotwire-native-playground-storyboard";
+			productReference = 5E63C44E2CA4C11D00B247A9 /* hotwire-native-playground-storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E63C4632CA4C11F00B247A9 /* hotwire-native-playground-storyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E63C47C2CA4C11F00B247A9 /* Build configuration list for PBXNativeTarget "hotwire-native-playground-storyboardTests" */;
+			buildPhases = (
+				5E63C4602CA4C11F00B247A9 /* Sources */,
+				5E63C4612CA4C11F00B247A9 /* Frameworks */,
+				5E63C4622CA4C11F00B247A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E63C4662CA4C11F00B247A9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5E63C4672CA4C11F00B247A9 /* hotwire-native-playground-storyboardTests */,
+			);
+			name = "hotwire-native-playground-storyboardTests";
+			packageProductDependencies = (
+			);
+			productName = "hotwire-native-playground-storyboardTests";
+			productReference = 5E63C4642CA4C11F00B247A9 /* hotwire-native-playground-storyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E63C46D2CA4C11F00B247A9 /* hotwire-native-playground-storyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E63C47F2CA4C11F00B247A9 /* Build configuration list for PBXNativeTarget "hotwire-native-playground-storyboardUITests" */;
+			buildPhases = (
+				5E63C46A2CA4C11F00B247A9 /* Sources */,
+				5E63C46B2CA4C11F00B247A9 /* Frameworks */,
+				5E63C46C2CA4C11F00B247A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E63C4702CA4C11F00B247A9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5E63C4712CA4C11F00B247A9 /* hotwire-native-playground-storyboardUITests */,
+			);
+			name = "hotwire-native-playground-storyboardUITests";
+			packageProductDependencies = (
+			);
+			productName = "hotwire-native-playground-storyboardUITests";
+			productReference = 5E63C46E2CA4C11F00B247A9 /* hotwire-native-playground-storyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E63C4462CA4C11D00B247A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5E63C44D2CA4C11D00B247A9 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5E63C4632CA4C11F00B247A9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5E63C44D2CA4C11D00B247A9;
+					};
+					5E63C46D2CA4C11F00B247A9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5E63C44D2CA4C11D00B247A9;
+					};
+				};
+			};
+			buildConfigurationList = 5E63C4492CA4C11D00B247A9 /* Build configuration list for PBXProject "hotwire-native-playground-storyboard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E63C4452CA4C11D00B247A9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5E63C44F2CA4C11D00B247A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E63C44D2CA4C11D00B247A9 /* hotwire-native-playground-storyboard */,
+				5E63C4632CA4C11F00B247A9 /* hotwire-native-playground-storyboardTests */,
+				5E63C46D2CA4C11F00B247A9 /* hotwire-native-playground-storyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E63C44C2CA4C11D00B247A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E63C4622CA4C11F00B247A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E63C46C2CA4C11F00B247A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E63C44A2CA4C11D00B247A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E63C4602CA4C11F00B247A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E63C46A2CA4C11F00B247A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E63C4662CA4C11F00B247A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E63C44D2CA4C11D00B247A9 /* hotwire-native-playground-storyboard */;
+			targetProxy = 5E63C4652CA4C11F00B247A9 /* PBXContainerItemProxy */;
+		};
+		5E63C4702CA4C11F00B247A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E63C44D2CA4C11D00B247A9 /* hotwire-native-playground-storyboard */;
+			targetProxy = 5E63C46F2CA4C11F00B247A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E63C4782CA4C11F00B247A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hotwire-native-playground-storyboard/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pingortle.hotwire-native-playground-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E63C4792CA4C11F00B247A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hotwire-native-playground-storyboard/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pingortle.hotwire-native-playground-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E63C47A2CA4C11F00B247A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E63C47B2CA4C11F00B247A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E63C47D2CA4C11F00B247A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pingortle.hotwire-native-playground-storyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hotwire-native-playground-storyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hotwire-native-playground-storyboard";
+			};
+			name = Debug;
+		};
+		5E63C47E2CA4C11F00B247A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pingortle.hotwire-native-playground-storyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hotwire-native-playground-storyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hotwire-native-playground-storyboard";
+			};
+			name = Release;
+		};
+		5E63C4802CA4C11F00B247A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pingortle.hotwire-native-playground-storyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hotwire-native-playground-storyboard";
+			};
+			name = Debug;
+		};
+		5E63C4812CA4C11F00B247A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pingortle.hotwire-native-playground-storyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hotwire-native-playground-storyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E63C4492CA4C11D00B247A9 /* Build configuration list for PBXProject "hotwire-native-playground-storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E63C47A2CA4C11F00B247A9 /* Debug */,
+				5E63C47B2CA4C11F00B247A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E63C4772CA4C11F00B247A9 /* Build configuration list for PBXNativeTarget "hotwire-native-playground-storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E63C4782CA4C11F00B247A9 /* Debug */,
+				5E63C4792CA4C11F00B247A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E63C47C2CA4C11F00B247A9 /* Build configuration list for PBXNativeTarget "hotwire-native-playground-storyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E63C47D2CA4C11F00B247A9 /* Debug */,
+				5E63C47E2CA4C11F00B247A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E63C47F2CA4C11F00B247A9 /* Build configuration list for PBXNativeTarget "hotwire-native-playground-storyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E63C4802CA4C11F00B247A9 /* Debug */,
+				5E63C4812CA4C11F00B247A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E63C4462CA4C11D00B247A9 /* Project object */;
+}
