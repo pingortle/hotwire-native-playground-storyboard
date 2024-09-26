@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5E63C4842CA4C17A00B247A9 /* HotwireNative in Frameworks */ = {isa = PBXBuildFile; productRef = 5E63C4832CA4C17A00B247A9 /* HotwireNative */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5E63C4652CA4C11F00B247A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E63C4842CA4C17A00B247A9 /* HotwireNative in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = "hotwire-native-playground-storyboard";
 			packageProductDependencies = (
+				5E63C4832CA4C17A00B247A9 /* HotwireNative */,
 			);
 			productName = "hotwire-native-playground-storyboard";
 			productReference = 5E63C44E2CA4C11D00B247A9 /* hotwire-native-playground-storyboard.app */;
@@ -208,6 +214,9 @@
 			);
 			mainGroup = 5E63C4452CA4C11D00B247A9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5E63C4822CA4C17A00B247A9 /* XCRemoteSwiftPackageReference "hotwire-native-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5E63C44F2CA4C11D00B247A9 /* Products */;
 			projectDirPath = "";
@@ -287,10 +296,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hotwire-native-playground-storyboard/hotwire-native-playground-storyboard.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28H5T333KV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hotwire-native-playground-storyboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Kaleb's Notifications";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -314,10 +326,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hotwire-native-playground-storyboard/hotwire-native-playground-storyboard.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28H5T333KV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hotwire-native-playground-storyboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Kaleb's Notifications";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -563,6 +578,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5E63C4822CA4C17A00B247A9 /* XCRemoteSwiftPackageReference "hotwire-native-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/hotwire-native-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5E63C4832CA4C17A00B247A9 /* HotwireNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E63C4822CA4C17A00B247A9 /* XCRemoteSwiftPackageReference "hotwire-native-ios" */;
+			productName = HotwireNative;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E63C4462CA4C11D00B247A9 /* Project object */;
 }

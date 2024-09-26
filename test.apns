@@ -1,0 +1,14 @@
+{
+   "aps" : {
+       "content-available" : 1,
+       "alert": {
+           "title" : "notification title",
+           "subtitle" : "notification subtitle",
+           "body" : "description of the notification",
+       },
+       "badge":1,
+       "sound": "default",
+   },
+   "custom_key": "small amount of data",
+   "Simulator Target Bundle": "pingortle.hotwire-native-playground-storyboard"
+}
